@@ -1,6 +1,6 @@
-####Mac解包安卓 dat.br文件工具说明：
+####Mac解包/打包安卓 dat.br文件工具说明：
 
-1.解压Mac解包安卓dat.br文件工具
+1.解压Mac解包/打包安卓dat.br文件工具
 
 2.将ROM解包出来的文件：
 
@@ -12,28 +12,28 @@ system.transfer.list
 vendor.new.dat
 
 vendor.transfer.list
+
+file_contexts.bin
 ```
 
-放到Mac_dat.br_tools目录下，然后打开终端进入Mac_dat.br_tools
+放到Mac_dat.br_tools/file目录下，然后打开终端进入Mac_dat.br_tools
 
-解包命令依次输入:
-
-```
-chmod +x brotli.sh dat2img.sh fuse-ext2.sh
-
-./brotli.sh			//将.dat.br文件转换成.dat文件
-
-./dat2img.sh		//将.dat文件转换成.img文件
-
-./fuse-ext2.sh		//将.img挂载
-```
-
- 打包命令依次输入:
+一键操作：
 
 ```
-chmod +x img2dat.sh
+chmod +x unpack.sh repack.sh
 
-./img2dat.sh		//将.img文件转成.dat文件，生死文件在tmp目录
+./unpack.sh			//解包并挂载
+
+./repack.sh			//打包并生成.dat文件
+```
+
+单独打包 system.img/vendor.img
+
+```
+chmod +x build_img.sh
+
+./build_img.sh
 ```
 
 

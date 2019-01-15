@@ -13,3 +13,6 @@ https://github.com/alperakcan/fuse-ext2
 
 osxfuse:
 https://osxfuse.github.io/
+
+sefcontext:
+https://github.com/jakev/sefcontext-parser
