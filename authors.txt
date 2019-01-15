@@ -1,0 +1,15 @@
+brotli:
+https://github.com/google/brotli
+
+sdat2img img2sdat:
+https://github.com/xpirt/sdat2img
+https://github.com/xpirt/img2sdat
+
+simg2img img2simg：
+https://github.com/anestisb/android-simg2img
+
+fuse-ext2:
+https://github.com/alperakcan/fuse-ext2
+
+osxfuse:
+https://osxfuse.github.io/
