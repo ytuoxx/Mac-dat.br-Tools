@@ -43,4 +43,5 @@ chmod +x build_img.sh
 使用fuse-ext2之前需要安装osxfuse，安装的时候全部勾选。
 
 osxfuse:
+
 https://osxfuse.github.io/
