@@ -1,8 +1,27 @@
 #!/bin/bash
 #build android 7.x + make_ext4fs for mac
 
-mkdir source
-mkdir bin
+#mkdir source
+SRC_DIR=source
+if [ $# -eq 2 ]; then
+	SRC_DIR=$1
+fi
+
+mkdir -p $SRC_DIR
+if [ $? -ne 0 ]; then
+	exit 1
+fi
+
+#mkdir bin
+BIN_DIR=bin
+if [ $# -eq 2 ]; then
+	BIN_DIR=$1
+fi
+
+mkdir -p $BIN_DIR
+if [ $? -ne 0 ]; then
+	exit 1
+fi
 
 # clone source
 cd source
