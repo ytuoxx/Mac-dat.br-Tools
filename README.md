@@ -36,6 +36,14 @@ chmod +x build_img.sh
 ./build_img.sh
 ```
 
+打包成zip文件
+
+```
+chmod +x install.sh
+
+./install.sh		//生成zip在/work/tmp/otazip
+```
+
 
 
 注意：
